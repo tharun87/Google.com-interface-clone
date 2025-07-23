@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .links a{
+        @apply hover:underline hover:text-blue-500
+    }
+
+    .btn{
+        @apply bg-gray-100 hover:bg-gray-200 rounded px-4 py-2 text-[13px] text-gray-900
+    }
+
+    .lang a{
+        @apply text-blue-700 hover:underline
+    }
+
+    footer a{
+        @apply hover:underline
+    }
+}
